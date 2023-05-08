@@ -18,3 +18,5 @@ The Msgs sent consist of a dictionary containing two entries:
 
 ### Current State
 The App can only be seen as a prototype which lacks functionality, style and safety!
+
+Crashes when sending image! need to investigate 
