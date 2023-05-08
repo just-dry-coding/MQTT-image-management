@@ -1,0 +1,15 @@
+attrs==23.1.0
+colorama==0.4.6
+dnspython==2.3.0
+exceptiongroup==1.1.1
+iniconfig==2.0.0
+jsonschema==4.17.3
+packaging==23.1
+paho-mqtt==1.6.1
+pluggy==1.0.0
+pymongo==4.3.3
+pyrsistent==0.19.3
+pytest==7.3.1
+tomli==2.0.1
+typing==3.7.4.3
+uuid==1.30
