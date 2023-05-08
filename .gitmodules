@@ -4,3 +4,6 @@
 [submodule "image-management-server"]
 	path = image-management-server
 	url = https://github.com/just-dry-coding/image-management-server.git
+[submodule "image_management_ui"]
+	path = image_management_ui
+	url = https://github.com/just-dry-coding/image_management_ui.git
