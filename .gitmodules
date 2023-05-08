@@ -1,3 +1,6 @@
 [submodule "MQTT-image-database-server"]
 	path = MQTT-image-database-server
 	url = https://github.com/just-dry-coding/MQTT-image-database-server.git
+[submodule "image-management-server"]
+	path = image-management-server
+	url = https://github.com/just-dry-coding/image-management-server.git
