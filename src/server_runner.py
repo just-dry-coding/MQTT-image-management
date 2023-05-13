@@ -16,7 +16,7 @@ config = '{ \
             "mqtt_subscriber":{ \
                 "broker_url": "broker.hivemq.com", \
                 "broker_port": 1883, \
-                "topic": "one/unique/nice/test/topic" \
+                "topic": "my/super/test/unique/topic" \
             }, \
             "mongo_handler":{ \
                 "connection_string": "", \
