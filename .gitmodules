@@ -7,3 +7,6 @@
 [submodule "image_management_ui"]
 	path = image_management_ui
 	url = https://github.com/just-dry-coding/image_management_ui.git
+[submodule "MQTT-image-publisher"]
+	path = MQTT-image-publisher
+	url = https://github.com/just-dry-coding/MQTT-image-publisher.git
