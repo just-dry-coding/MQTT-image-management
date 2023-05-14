@@ -39,7 +39,7 @@ from image_management_server import app  # noqa
 
 try:
     print("starting frontend")
-    subprocess.Popen(['npm', 'run', 'start'], start_new_session=True, shell=True, cwd=path.join(
+    UIprocess = subprocess.Popen(['npm', 'run', 'start'], start_new_session=True, shell=True, cwd=path.join(
         parent_dir, 'image_management_ui'))
 except subprocess.CalledProcessError as e:
     print(f"Error starting npm server: {e}")
@@ -56,4 +56,5 @@ while True:
     try:
         pass
     except KeyboardInterrupt:
-        break
+        UIprocess.kill()
+        sys.exit(0)

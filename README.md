@@ -29,3 +29,6 @@ run `git clone --recurse-submodules -j8 https://github.com/just-dry-coding/MQTT-
 5. start all the servers with right attributes
    1. adapt config inside `./src/server_runner.py` to match your setup (or keep default)
    2. run `python ./src/server_runner.py`
+
+## Improvements
+- stop server_runner gracefully
