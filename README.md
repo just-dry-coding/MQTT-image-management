@@ -14,7 +14,7 @@ Take images with android device, store them in a database and manage them via a 
 2. user views, gets, modifies and deltes the images in the database using a web frontend
 
 ## How to setup and run
-1. follow instructions to build and run android app [instructions](MQTT-image-publisher/README.md)
+1. follow instructions to build and run android app [instructions]([MQTT-image-publisher/README.md](https://github.com/just-dry-coding/MQTT-image-publisher/blob/main/README.md))
 2. run `npm install` in image_management_ui directory
 3. setup venv
    1. `python -m venv venv`
