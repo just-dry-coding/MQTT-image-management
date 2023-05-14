@@ -13,6 +13,9 @@ Take images with android device, store them in a database and manage them via a 
 1. user takes photo and saves image to database using mqtt client
 2. user views, gets, modifies and deltes the images in the database using a web frontend
 
+## How to checkout and clone including all submodules
+run `git clone --recurse-submodules -j8 https://github.com/just-dry-coding/MQTT-image-management`
+
 ## How to setup and run
 1. follow instructions to build and run android app [MQTT-image-publisher/README.md](https://github.com/just-dry-coding/MQTT-image-publisher/blob/main/README.md)
 2. run `npm install` in image_management_ui directory
