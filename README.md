@@ -19,7 +19,7 @@ run `git clone --recurse-submodules -j8 https://github.com/just-dry-coding/MQTT-
 ## How to setup and run
 1. follow instructions to build and run android app [MQTT-image-publisher/README.md](https://github.com/just-dry-coding/MQTT-image-publisher/blob/main/README.md)
 2. run `npm install` in image_management_ui directory
-3. setup venv
+3. back in root directory setup venv
    1. `python -m venv venv`
    2. `./venv/Scripts/activate`
    3. `pip install -r requirements.txt`
@@ -29,6 +29,9 @@ run `git clone --recurse-submodules -j8 https://github.com/just-dry-coding/MQTT-
 5. start all the servers with right attributes
    1. adapt config inside `./src/server_runner.py` to match your setup (or keep default)
    2. run `python ./src/server_runner.py`
+
+## Troubleshooting
+1. if android app does not publish image then restart app after starting servers
 
 ## Improvements
 - stop server_runner gracefully
