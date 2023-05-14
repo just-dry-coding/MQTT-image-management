@@ -38,8 +38,7 @@ from image_management_server import app  # noqa
 
 
 try:
-    print(
-        path.join(parent_dir, 'image_management_ui'))
+    print("starting frontend")
     subprocess.Popen(['npm', 'run', 'start'], start_new_session=True, shell=True, cwd=path.join(
         parent_dir, 'image_management_ui'))
 except subprocess.CalledProcessError as e:
@@ -47,7 +46,9 @@ except subprocess.CalledProcessError as e:
 
 config['mongo_handler']['connection_string'] = connection_string
 img_database_server = ImageDataBaseServer(config)
+print("starting database server")
 img_database_server.run()
+print("starting API server")
 uvicorn.run(app, host="0.0.0.0", port=8000)
 
 # todo: kill processes gracefully
